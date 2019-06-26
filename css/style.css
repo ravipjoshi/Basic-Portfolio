@@ -1,0 +1,45 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+body{
+     display: block;
+     background-image: url("image/subtle_white_feathers_@2X.png");
+}
+nav{
+
+    display: block;
+    float: right;
+    border: 1px solid black;
+    
+}
+
+header{
+    display: block;
+    border: 1px solid black;
+    
+    
+}
+.HeadWrapper{
+    display: block;
+    
+    border : 2px solid black; 
+    height: 300px;
+    width:100%;
+    
+}
+.BodyWrapper{
+    display: block;
+    
+    border : 2px solid black; 
+    height: 300px;
+    
+}
+.FooterWrapper{
+    display: block;
+    border: 1px solid black;
+    width:100%;
+    
+}
