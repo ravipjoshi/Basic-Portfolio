@@ -176,3 +176,12 @@ hr{
      display:flex;
             flex-direction:row;
 }
+.footerhr{
+
+    margin: -5px;
+    padding: 0;
+    color:#4aaaa5;
+    border: 5px solid #4aaaa5;
+    background-color: #4aaaa5;
+
+}
