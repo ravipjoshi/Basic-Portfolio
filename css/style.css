@@ -16,6 +16,7 @@ p{
     float:right;
     margin: -225px 5px 0px 210px;
     line-height: 24px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 nav{
 
@@ -29,11 +30,12 @@ nav{
 }
 nav a{
    text-decoration-line: none;
-   font-size: 24px;
+   font-size: 20px;
    color :#777777;
    padding: 10px 10px 10px 10px;
 }
 header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     display: block;
     margin-left: 300px;
     background-color: #4aaaa5;
@@ -41,6 +43,7 @@ header{
     height: 50px;   
     padding: 20px 10px 20px 10px;
     color:#ffffff;
+
 }
 h1{
     text-align: center
@@ -49,6 +52,9 @@ h1{
     text-align: left;
     color:#4aaaa5;
     
+}
+a:hover{
+    background-color:#86858563 ;
 }
 
 .BodyWrapper label{
@@ -85,11 +91,14 @@ article{
     padding: 20px 20px 20px 20px;
 }
 article *{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
     color :#777777;
 }
-devider{
-    border: 10px solid black;
+article h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+article label{
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .FooterWrapper{
     display: block;
@@ -98,6 +107,10 @@ devider{
     height:100px;
     margin-bottom: 0%;
     background-color: #666666;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    
     
         
 }
@@ -106,37 +119,52 @@ footer{
     text-align: center;
     padding-top:  80px;
     color:#ffffff;
+  
     font-size: medium;
-}
-.wrapper{
-    display: flex;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+    
 }
 figure{
-    height: 400px;
-    width: 300px;
+    height: 275px;
+    width: 205px;
 }
-.wrapper img{
-    height: 400px;
-    width: 300px;
+.block img{
+    height: 205px;
+    width: 275px;
     float: left;
 }
+.imglabel p{
+    
+    text-align: center;
+    color: #ffffff;
+    margin-top: -80px;
+    margin-left : -2px;
+    background-color: #4aaaa5;
+    height:30px ;
+    width: 267px; 
+}
+hr{
 
-.raw1{
+    margin: 0;
+    padding: 0;
+        color:#666666;
+}
+
+.row1{
    display: flex;    
    flex-direction: row; 
 }
-.raw2{
+.row2{
   display: flex; 
   flex-direction: row; 
 }
-.raw3{
-
-    display: flex;
+.row3{
+    display: flex; 
     flex-direction: row; 
-}
-form{
-    margin-left: -10px; ;
-}
+  }
+
+
 .button{
     background-color: #4aaaa5;
     color: #ffffff;
